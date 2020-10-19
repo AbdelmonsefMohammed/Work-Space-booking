@@ -65,13 +65,14 @@
                             </div>
                             <div class="col-sm-8">
                                 <ul>
-                                    <li><a class="js-scroll-trigger" href="/">Home</a></li>
                                     <li><a class="js-scroll-trigger" href="/#about-us">About Us</a></li>
                                     <li><a class="js-scroll-trigger" href="/#meeting-room">Gallery</a></li>
                                     <li><a class="js-scroll-trigger" href="/#pricing">Pricing</a></li>
                                     <li><a class="js-scroll-trigger" href="/#contact-us">Book Now</a></li>
                                     @guest
                                     <li><a class="js-scroll-trigger" href="{{ route('login') }}">Login</a></li>
+                                    <li><a class="js-scroll-trigger" href="{{ route('register') }}">Register</a></li>
+
                                     @else
                                     <li class="nav-item dropdown">
                                         <a id="navbarDropdown" class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
